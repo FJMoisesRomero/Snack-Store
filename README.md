@@ -65,6 +65,9 @@ Este panel está diseñado para ser **intuitivo y fácil de navegar**, proporcio
 
 4. **Abrir el proyecto**:
    Abre el archivo `index.php` en tu servidor local para acceder al sistema.
+
+## Puedes visitarlo en http://laapetitosa.html-5.me/
+
 ## 📸 Capturas de pantalla
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
