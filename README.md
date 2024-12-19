@@ -91,7 +91,7 @@ Este panel está diseñado para ser **intuitivo y fácil de navegar**, proporcio
 </div>
 
 ## 🤝 Contribuciones
-
+![Presentacion](presentacion.jpeg)
 Este proyecto es parte de un proyecto universitario, pero si deseas contribuir, por favor sigue estos pasos:
 
 1. Haz un **fork** del repositorio.
