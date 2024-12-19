@@ -68,15 +68,15 @@ Este panel está diseñado para ser **intuitivo y fácil de navegar**, proporcio
 ## 📸 Capturas de pantalla
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <img src="images/sistema 1.jpeg" alt="Sistema 1" style="width: 48%; height: auto;">
-    <img src="images/sistema 2.jpeg" alt="Sistema 2" style="width: 48%; height: auto;">
+    <img src="images/sistema 1.jpg" alt="Sistema 1" style="width: 48%; height: auto;">
+    <img src="images/sistema 2.jpg" alt="Sistema 2" style="width: 48%; height: auto;">
 </div>
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <img src="images/sistema 3.jpeg" alt="Sistema 3" style="width: 48%; height: auto;">
-    <img src="images/sistema 4.jpeg" alt="Sistema 4" style="width: 48%; height: auto;">
+    <img src="images/sistema 3.jpg" alt="Sistema 3" style="width: 48%; height: auto;">
+    <img src="images/sistema 4.jpg" alt="Sistema 4" style="width: 48%; height: auto;">
 </div>
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <img src="images/sistema 5.jpeg" alt="Sistema 5" style="width: 48%; height: auto;">
+    <img src="images/sistema 5.jpg" alt="Sistema 5" style="width: 48%; height: auto;">
     <img src="images/sistema 6.png" alt="Sistema 6" style="width: 48%; height: auto;">
 </div>
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
