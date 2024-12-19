@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: url("https://i.ibb.co/mFFwqvk/download-7.png");
+}
+#mobileMenu {
+  transition: transform 0.3s ease-in-out;
+  width: 50%; /* Ocupa la mitad del ancho de la pantalla */
+}
+		/* Custom scrollbar styling */
+		::-webkit-scrollbar {
+			width: 6px;
+		}
+
+		::-webkit-scrollbar-track {
+			background: #0C0C27;
+		}
+
+		::-webkit-scrollbar-thumb {
+			background: #ff4081;
+			border-radius: 6px;
+		}
+
+		::-webkit-scrollbar-thumb:hover {
+			background: #e00070;
+		}
+
+/* Estilos del logo */
+#logo {
+    font-family: 'Playwrite CU', sans-serif;
+    font-weight: 300;
+    font-size: 2rem; /* Tamaño de fuente reducido */
+    text-shadow: 1px 1px 0px #FFB650, 
+                2px 2px 0px #FFD662, 
+                3px 3px 0px #FF80BF, 
+                4px 4px 0px #EF5097, 
+                5px 5px 0px #6868AC, 
+                6px 6px 0px #90B1E0; /* Sombras ajustadas */
+    color: #FFD662; /* Color principal del logo */
+}
+
+/* Navbar */
+nav {
+    background-color: #1A202C; /* bg-gray-800 */
+}
+
+/* Estilo base para los ítems de navegación */
+.nav-item {
+  color: #FFD662; /* Texto amarillo suave */
+  position: relative;
+  padding-bottom: 0.5rem; /* Espacio para la animación */
+  text-decoration: none;
+}
+
+/* Animación del hover para los links */
+.nav-item::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #FF80BF; /* Rosa brillante */
+  transition: width .3s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* Estilo para el ítem de navegación activo */
+.nav-item.active::after {
+  width: 100%;
+}
+
+.nav-item.active {
+  color: #FF80BF; /* Rosa brillante cuando está activo */
+}
+
+/* Estilo para el hover sobre los ítems de navegación */
+.nav-item:hover::after {
+  width: 100%;
+}
+
+.nav-item:hover {
+  color: #FF80BF; /* Rosa brillante al pasar el ratón */
+}
+
+/* Botones */
+.btn {
+    background-color: #FF80BF; /* Rosa brillante */
+    color: #FFFFFF; /* Texto blanco */
+}
+
+.btn:hover {
+    background-color: #EF5097; /* Magenta al pasar el ratón */
+}
+
+/* Enlaces */
+a {
+    color: #EF5097; /* Magenta para los enlaces */
+}
+
+a:hover {
+    color: #FF80BF; /* Rosa brillante al pasar el ratón */
+}
+
+/* Productos */
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Secciones */
+section {
+  padding: 4rem 1rem;
+}
+#products {
+    background-color: rgba(247, 225, 165, 0.98); /* Fondo amarillo suave con transparencia */
+    color: rgba(104, 104, 172, 1); /* Texto azul oscuro, opaco */
+}
+#about{
+    background-color: rgba(248, 203, 78, 0.98); /* Fondo amarillo suave con transparencia */
+    color: rgba(104, 104, 172, 1); /* Texto azul oscuro, opaco */
+}
+#contact {
+    background-color: rgba(255, 214, 98, 0.98); /* Fondo amarillo suave con transparencia */
+    color: rgba(104, 104, 172, 1); /* Texto azul oscuro, opaco */
+}
+#benefits {
+    background-color: rgba(247, 225, 165, 0.98); /* Fondo amarillo suave con transparencia */
+    color: rgba(104, 104, 172, 1); /* Texto azul oscuro, opaco */
+}
+
+
+/* Footer */
+footer {
+  background-color: rgba(104, 104, 172, 0.98); /* Fondo azul oscuro con transparencia */
+  color: rgba(255, 214, 98, 1); /* Texto amarillo suave, opaco */
+}
+
+footer a {
+  color: rgba(255, 214, 98, 1); /* Enlace en el pie de página, opaco */
+}
+
+footer a:hover {
+  color: rgba(255, 128, 191, 1); /* Rosa brillante al pasar el ratón, opaco */
+}
