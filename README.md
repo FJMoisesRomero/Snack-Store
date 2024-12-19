@@ -1,6 +1,6 @@
 # Snack-Store
 
-**Snack-Store** es un sistema de gestión integral desarrollado para una empresa dedicada a la venta de snacks. Este proyecto fue realizado con **metodología ágil Scrum** durante un período de 2 semanas por un único programador, **Franco Moisés**, sumado a dos analistas y un expositor.
+**Snack-Store** es un sistema de gestión integral desarrollado para una empresa dedicada a la venta de snacks. Este proyecto fue realizado con **metodología ágil Scrum** durante un período de 2 semanas por un único programador, **Franco Moisés**, sumado a dos analistas/testers y un expositor.
 
 ## 🚀 Características
 
